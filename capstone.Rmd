@@ -41,3 +41,10 @@ aggregate(x = us$lifeExp, by = list(us$country), FUN = "max")
 ```
 
 Australia has the highest values, followed by the United States.
+
+```{r}
+
+hist(gap.in$lifeExp, main = "Global Life Expectancy")
+hist(gap.in$lifeExp, breaks = 30)
+```
+Many people are expected to live to about 70 years old.
