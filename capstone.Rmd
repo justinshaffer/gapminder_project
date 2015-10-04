@@ -29,11 +29,8 @@ Argentina's growth is non-monotonic. The US has much larger values.
 
 ## Mean, min, and max life expectancy by country
 ```{r}
-echo Mean
 aggregate(x = us$lifeExp, by = list(us$country), FUN = "mean")
-echo Min
 aggregate(x = us$lifeExp, by = list(us$country), FUN = "min")
-echo Max
 aggregate(x = us$lifeExp, by = list(us$country), FUN = "max")
 
 
